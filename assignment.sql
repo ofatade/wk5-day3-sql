@@ -7,7 +7,7 @@ USE music;
 CREATE TABLE album (
 id INT AUTO_INCREMENT PRIMARY KEY,
 title VARCHAR(75) NOT NULL,
-artist_id INT(75) NULL,
+artist_id INT,
 genre_id INT,
 release_year YEAR,
 tracks_total INT 
